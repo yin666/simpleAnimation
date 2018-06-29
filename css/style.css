@@ -1,0 +1,381 @@
+/* 头部的背景颜色要改下面两个 */
+.header{
+	background: #062c40;
+}
+.header-div{
+	background: #062c40;
+}
+/* 链尚游戏手机APP下载这个几个字的颜色 */
+.word{
+	color: #5affff;
+}
+/* 安卓按钮背景颜色 */
+.android {
+    background: linear-gradient(to right, #3c9dcb , #3a60c2);
+}
+/* ios按钮背景颜色 */
+.ios{
+	background: linear-gradient(to right,#fe9800,#fe5800);
+}
+/* IOS安装说明字体颜色 == ios按钮背景右边的颜色 */
+.instructiion {
+    color: #e67437;
+}
+/* 安卓,ios下载按钮字体颜色 */
+.robot span {
+    color: white;
+}
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+@media (min-width: 300px) { 
+	html{
+		font-size: 42px;
+	}
+}
+
+@media (min-width: 340px) { 
+	html{
+		font-size: 55px;
+	}
+}
+
+@media (min-width: 1200px) { 
+	 html{
+		font-size: 100px;
+	}
+}
+
+.clearfix:after { 
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.main{
+	position: relative;
+	width: 100%;
+	margin:0 auto;   
+	height: 10rem;  
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 6.8rem;
+	z-index: 6;
+}
+.header-div{
+	position: relative;
+	width: 7.5rem;
+	height: 6.6rem;
+	margin:0 auto;
+}
+.logo{
+	position: absolute;
+	width: 1.26rem;
+	height: 1.41rem;
+	top: 0rem;
+	left: 50%;
+	transform: translate(-50%);
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.word{    
+	position: absolute;
+	width: 100%;
+	top: 1.8rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	font-size: 0.5rem;
+	font-weight: 800;
+}
+.qr-code{
+	position: absolute;
+	width: 2.20rem;
+	height: 2.20rem;
+	left: 0.8rem;
+	top: 0.4rem;
+}
+.qr-code img{
+	width: 100%;
+	height: 100%;
+}
+.robot{
+   position: absolute;
+	width: 3.10rem;
+	height: 0.82rem;
+	border-radius: 0.1rem;
+	line-height: 0.82rem;
+}
+
+.robot img{
+
+}
+
+.robot span{
+	font-size: 0.3rem;
+	font-weight: 800;
+	margin-left: 0.85rem;
+}
+.android{
+	top: 0.5rem;
+	right: 1rem;
+	cursor: pointer;
+}
+.android img{
+   width: 100%;
+   height: 100%
+}
+.android span{
+
+}
+.ios{
+	top: 1.7rem;
+	right: 1rem;
+	cursor: pointer;
+}
+.ios img{
+	width: 100%;
+	height: 100%
+}
+.ios span{
+
+}
+.android .android-img-div{
+	position: absolute;
+	width: 0.32rem;
+	height: 0.36rem;
+	top: 0.22rem;
+	left: 0.3rem;
+	line-height: 0;
+}
+.ios .ios-img-div{
+	position: absolute;
+	width: 0.32rem;
+	height: 0.36rem;
+	top: 0.22rem;
+	left: 0.3rem;
+	line-height: 0;
+}
+.instructiion{
+	position: absolute;
+	top: 6rem;
+	right: 1.66rem;
+	width: 1.60rem;
+	height: 0.4rem;
+	font-size: 0.28rem;
+	cursor: pointer;
+}
+.slide{
+	position: relative;
+	margin:0 auto;
+	width: 7.5rem;
+	height: 3.5rem;
+	z-index: 6;
+	background: white;
+}
+.photos{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin:0 auto;
+	transition: all  .5s cubic-bezier(0, 1, 0.5, 1);
+	z-index: 1;
+	height: 0rem;
+	overflow-y: hidden;
+}
+.photos-main{
+	position: relative;
+	text-align: center;
+	width: 7.5rem;
+	margin:0 auto;
+}
+.photos img{
+	width: 5.06rem;
+}
+.install-instruction{
+	width: 100%;
+	position: relative;
+	color: #062c40;
+	font-weight: 800;
+	font-size: 0.2rem;
+	padding:0.15rem 0;
+}
+.instruction-words{
+	width: 100%;
+	position: relative;
+	font-weight: 700;
+	font-size: 0.18rem;
+	text-align: left;
+	text-indent: 0.9rem;
+	padding: 0.15rem 0;
+}
+.mySlides {
+	margin:0 auto;
+	display: none;
+	width: 7rem;
+	height: 3rem;
+}
+.slide-show{
+	display: block;
+}
+.dot-div{
+	width: 100%;
+	text-align: center;
+	z-index: 88;
+}
+.dot{
+	cursor: pointer;
+	height: 0.12rem;
+	width: 0.12rem;
+	margin: 0 0.02rem;
+	background-color: #dedede;
+	border-radius: 0.12rem;
+	display: inline-block;
+	transition: width 0.2s;
+
+}
+.dot-active{
+	width: 0.25rem;
+	cursor: pointer;
+	height: 0.12rem;
+	margin: 0 0.02rem;
+	background-color: #dedede;
+	border-radius: 0.12rem;
+	display: inline-block;   
+}
+.dot-tran{
+	transition: width 0.4s;
+}
+.active{
+	width: 0.25rem;
+	height: 0.12rem;
+	margin: 0 0.02rem;
+	background-color: #dedede;
+	border-radius: 0.12rem;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.footer{
+	position: absolute;
+	width: 100%;
+	height: .5rem;
+	background: #062c40;
+	display: none;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: .5rem;
+	background: #062c40;
+}
+.header-ios-android{
+	position: absolute;
+	width: 100%;
+	height: 3rem;
+	left: 0rem;
+	top: 3.2rem;
+	opacity: 0;
+}
+.header-ios-android{
+	animation: qr-code-move 1s;
+	-webkit-animation:qr-code-move 1s;
+	-moz-animation:qr-code-move 1s;
+	-o-animation:qr-code-move 1s;
+}
+.top-logo{
+	position: absolute;
+	top: 0.5rem;
+	left: 0rem;
+	width: 100%;
+	height: 2.5rem;
+	transition: all  1s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-down { 
+  transform: translateY(0);
+}
+.slide-up {
+  transform: translateY(-100%);
+}
+.move-0{
+	transform: translateY(-100%);   
+}
+.move-05{
+	transform: translateY(0);
+}
+@keyframes qr-code-move{
+	from {
+		transform: scale(0.6,0.6);
+		opacity: 0}
+	to {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes qr-code-move{
+	from {
+		transform: scale(0.6,0.6);
+		opacity: 0}
+	to {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes qr-code-move{
+	from {
+		transform: scale(0.6,0.6);
+		opacity: 0}
+	to {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+@-o-keyframes qr-code-move{
+	from {
+		transform: scale(0.6,0.6);
+		opacity: 0}
+	to {
+		transform: scale(1,1);
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+@-moz-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+@-o-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+

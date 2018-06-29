@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv = "X-UA-Compatible" content = "IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="main">
+		<header class="header">
+			<div class="header-div ">
+				<div class="top-logo move-0">
+					<div class="logo logo-animation">
+						<img src="./img/ic_lianshangyouxi.png" alt="">  
+					</div>
+					<div class="word">
+						链尚游戏手机APP下载
+					</div>
+				</div>	
+				
+				<div class="header-ios-android">
+					<div class="qr-code">
+						<img src="./img/ic_erweima.png" alt="">
+					</div>
+					<div class="robot android" onclick="androidLink(event)">
+						<div class="android-img-div">
+							<img src="./img/btn_android.png" alt="">
+						</div>             
+						<span>Android用户</span>             
+					</div>
+
+					<div class="robot ios" onclick="iosLink(0)">
+						<div class="ios-img-div">
+							<img src="./img/btn_iOS.png" alt="">
+						</div>
+						<span>IOS用户</span>  
+					</div>		
+				</div>
+				<div class="instructiion" onclick="showInstruction(event)">
+					IOS安装说明
+				</div> 
+			</div>            
+		</header>
+		<section class="slide">
+			<div class="mySlides fade">
+		    	<img src="img/img_kuaisantoubao.png" style="width:100%">
+			</div>
+
+		 	<div class="mySlides slide-show fade">
+				<img src="img/img_xingyunxuanhao.png" style="width:100%">
+		 	</div>
+			<div class="dot-div">
+				<span class="dot dot-tran"></span> 
+				<span class="dot dot-tran"></span> 
+			</div>
+		</section>
+		<section class="photos slide-up">
+			<div class="photos-main">	
+				<div class="install-instruction">IOS安装说明</div>
+				<div class="instruction-words">
+					1、打开APP，出现“未受信息”，点击【取消】
+				</div>
+				<img src="./img/img_01.jpg" alt="">
+				<div class="instruction-words">
+					2、打开设置，选择【通用】
+				</div>
+				<img src="./img/img_02.jpg" alt="">
+				<div class="instruction-words">
+					3、选择【设备管理】
+				</div>
+				<img src="./img/img_03.jpg" alt="">
+				<div class="instruction-words">
+					4、继续选择
+				</div>
+				<img src="./img/img_04.jpg" alt="">
+				<div class="instruction-words">
+					5、选择信任
+				</div>
+				<img src="./img/img_05.jpg" alt="">
+				<div class="instruction-words">
+					6、点击信任
+				</div>
+				<img src="./img/img_06.jpg" alt="">
+				<div class="instruction-words">
+					7、退出设置，重新打开APP即可
+				</div>
+			</div>
+			<div class="footer">	
+			</div>		
+		</section>
+	</div>
+	<script src="./js/index.js"></script>
+</body>
+</html>
