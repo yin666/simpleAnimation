@@ -45,10 +45,10 @@ function androidLink(event){
 }
 
 function iosLink(event){
-	if(event===1){
-		window.location.href = "http://www.iconfont.cn/";
-	}else{
-		window.location.href = "http://www.iconfont.cn/";
-	}
-	
+	var i = Math.round(Math.random() * 10);
+    if (i % 2 >= 0) {
+        location.href = "http://www.iconfont.cn/";
+    }
 }
+
+
